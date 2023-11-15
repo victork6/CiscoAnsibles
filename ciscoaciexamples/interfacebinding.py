@@ -1,12 +1,6 @@
 #static_bind.py
 #Importo todo de la libreria acitoolkit
 from acitoolkit.acitoolkit import *
-
-APIC_URL = "https://aiaaslab1.igrupobbva/"
-APIC_PASSWORD = "C1sc0123"
-APIC_USERNAME = "admin"
-
-
 #Defino lo que voy a pushear al tenant
 tenant = Tenant('ACI-VICTOR-LABS')
 #Creamos un App Profile dentro del tenant
